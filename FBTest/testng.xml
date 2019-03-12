@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestAutomation">
+    <parameter name="sUsername" value="username"/>
+  <parameter name="sPassword" value="pass@123"/>
+  <classes>
+   <class name ="testPackage.TestNGParameters"/> 
+  
+  </classes>
+    </test> <!-- Test -->
+  <test thread-count="5" name="TestAutomation1">
+  <parameter name="sUsername" value="rajeshgl93@gmail.com"/>
+  <parameter name="sPassword" value="amalsundar28"/>
+    <classes>
+    <class name ="testPackage.TestNGParameters"/> 
+    </classes>
+    </test>
+</suite> <!-- Suite -->
